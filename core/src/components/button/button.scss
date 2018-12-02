@@ -15,6 +15,7 @@
    *
    * @prop --width: Width of the button
    * @prop --height: Height of the button
+   * @prop --min-height: Minimum Height of the button
    *
    * @prop --transition: Transition of the button
    *
@@ -39,6 +40,7 @@
    * @prop --padding-start: Padding start of the button
    */
   --width: auto;
+  --min-height: 0;
   --overflow: hidden;
   --ripple-color: currentColor;
 
@@ -204,6 +206,7 @@
 
   width: var(--width);
   height: var(--height);
+  min-height: var(--min-height);
 
   transition: var(--transition);
 
